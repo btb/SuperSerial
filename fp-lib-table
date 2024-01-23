@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Apple2")(type "KiCad")(uri "/Users/bradleyb/Google Drive/workshop/Apple II/Apple2-IO-RPi/Hardware/Apple2.pretty")(options "")(descr ""))
+)
