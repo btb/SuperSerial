@@ -5075,10 +5075,10 @@
   (gr_text "C3, C4, C9:\ncan be omitted \nif UA6 is 14C88" (at 215.9 78.74) (layer "F.Fab") (tstamp 4791f24e-2d0a-4343-b475-8ad72ddd1e68)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "G1 / Y1&C1: one of:\nDIP-8 oscillator\nDIP-14 oscillator\nCrystal w/optional capacitor\n\nmake sure can doesn't short to unused pads" (at 215.9 130.175) (layer "F.Fab") (tstamp 4d72ba4f-8f0c-42ae-a92b-14c8c7330267)
+  (gr_text "G1 / Y1 / C1: one of:\nDIP-8 oscillator\nDIP-14 oscillator\nCrystal w/tuning capacitor\n\nmake sure metal can does\nnot short to unused pads" (at 215.9 130.175) (layer "F.Fab") (tstamp 4d72ba4f-8f0c-42ae-a92b-14c8c7330267)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "J1: one of:\npin	apple	sequential	staggered\n--	---		------		------\n1	GND		DCD			DCD\n2	TXD		RXD			DSR\n3	RXD		TXD			RXD\n4	RTS		DTR			RTS\n5	CTS		GND			TXD\n6	DSR		DSR			CTS\n7	DCD		RTS			DTR\n8	GND		CTS			NC\n9	DTR		NC			GND\n10	NC		NC			NC\n" (at 215.9 111.125) (layer "F.Fab") (tstamp fda920cd-7b72-4f3e-a45f-32bc9f01d9bd)
+  (gr_text "J1: header placed according \nto which cable is being used.\n	apple  sequential staggered\n	25pin	9pin	9pin\n--	---		---		---\n1	GND		DCD		DCD\n2	TXD		RXD		DSR\n3	RXD		TXD		RXD\n4	RTS		DTR		RTS\n5	CTS		GND		TXD\n6	DSR		DSR		CTS\n7	DCD		RTS		DTR\n8	GND		CTS		NC\n9	DTR		NC		GND\n10	NC		NC		NC\n" (at 215.9 111.125) (layer "F.Fab") (tstamp fda920cd-7b72-4f3e-a45f-32bc9f01d9bd)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
