@@ -35,12 +35,14 @@ The RS232 Driver/Receiver chips, UA6 and UA7, can be the original 1488 and 1489 
 
 The original SSC used a large DIP16 sized jumper block that could be oriented in two ways for "terminal" or "modem" modes. This card is simply in permanent "modem" mode. If "terminal" mode is required, use a null-modem cable or adapter.
 
-### Configuration switches
+### Configuration jumpers
+
+![rendering of the solder jumpers on the rear of the board](SuperSerial_jumpers.png)
 
 The original SSC had two sets of 7-position dip switches, for a wide variety of default software settings, this card has no switches, just two sets of 6-position solder jumpers on the rear of the card. These are pre-configured to the use the reasonable modem defaults of:
 
     SW1: 100111  SW2: 110110
 
-Note that all of these settings (except for SW2-6) are configurable from software as well. But if you commonly need to use the card for more than one purpose, it's probably best to just have more than one card!
+You can cut these traces and re-solder as needed. Note that all of these settings (except for SW2-6) are configurable from software as well. But if you commonly need to use the card for more than one purpose, it's probably best to just have more than one card!
 
 SW1-7 and SW2-7 are omitted since those do not control software defaults, but re-route some signals to non-standard pins. If that's necessary for you, you can use an adapter cable.
