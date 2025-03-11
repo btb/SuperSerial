@@ -23,7 +23,7 @@ The original SSC used a 1.8432MHz crystal (Y1) and a usually-omitted 10pF capaci
 
 ### Cable Header
 
-You can use a common PC-type IDC10 to DB9 pigtail, or the IDC10 to DB25 pigtail used with the original Apple SSC. There are two different pinouts used in the PC style (sequential or staggered), and the Apple pinout is different from both. Only populate the header (J1) for the style you're going to use. "Sequential" is the most commonly available type.
+You can use a common PC-type IDC10 to DB9 pigtail, or the IDC10 to DB25 pigtail used with the original Apple SSC. There are two different pinouts used in the PC style ("sequential" or "staggered"), and the "apple" pinout is different from both. Only populate the header (J1) for the style you're going to use. "Sequential" is the most commonly available type. A keyed/shrouded header is probably best, a right angle/horizontal header would be nice, but you probably only have room for that if you are using the "Apple" pinout.
 
 ### Driver/Receiver
 
