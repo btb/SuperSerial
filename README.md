@@ -19,7 +19,7 @@ UA4 should be a new old stock MOS 6551 or equivalent. The WDC 65C51 has a well-k
 
 ### Oscillator
 
-The original SSC used a 1.8432MHz crystal (Y1) and a usually-omitted 10pF capacitor (C1) for timing the ACIA chip. You can use this same kind of crystal, or you can use a self-contained DIP8 or DIP16 oscillator (G1). If you use a horizontally-mounted crystal at Y1, make sure it is insulated from the unused pads underneath.
+The original SSC used a 1.8432MHz crystal (Y1) and a usually-omitted 10pF capacitor (C1) for timing the ACIA chip. You can use this same kind of crystal, or you can use a self-contained DIP8 or DIP14 oscillator (G1). If you use a horizontally-mounted crystal at Y1, make sure it is insulated from the unused pads underneath.
 
 ### Cable Header
 
