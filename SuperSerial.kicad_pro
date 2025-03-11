@@ -58,13 +58,13 @@
       ],
       "drc_exclusions": [
         "clearance|122759042|89405239|8925add2-95b5-439e-bbdf-a8a4b021c4fc|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
-        "clearance|124795000|106264179|5af09ab4-6595-49fb-a1d6-76ebb5217d97|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
         "clearance|124795000|89754179|56d3978f-0f00-434e-9bd3-556e0ebf30c0|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
-        "clearance|127339041|105915239|ac59e20c-38b8-4760-ba0c-7315f7a284d0|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
+        "clearance|124826205|106340000|5af09ab4-6595-49fb-a1d6-76ebb5217d97|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
         "clearance|127339041|89405239|ed3978f3-4507-405b-ac13-c0dcf91e82ce|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
-        "clearance|132897276|105917094|3092dcb1-cedc-458e-8481-c8b097361a47|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
-        "clearance|134955000|89724179|fe204b78-2e17-4630-9671-528ea7139654|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
-        "clearance|135459434|106340000|93181b20-8c55-47bf-9269-d7f0ab5b36c2|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
+        "clearance|127839042|105915239|ac59e20c-38b8-4760-ba0c-7315f7a284d0|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
+        "clearance|132419041|105915239|3092dcb1-cedc-458e-8481-c8b097361a47|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
+        "clearance|134955000|106264179|93181b20-8c55-47bf-9269-d7f0ab5b36c2|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
+        "clearance|135437276|89722906|fe204b78-2e17-4630-9671-528ea7139654|f7b62929-e0d2-4dc9-9f42-7b3fd5287187",
         "clearance|206845000|120485000|446c72e1-8892-4e5f-891a-074e230cb564|f7313c22-faf4-4aa3-8358-e1ea87c2da96"
       ],
       "meta": {
@@ -413,7 +413,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
