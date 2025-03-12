@@ -20,12 +20,14 @@ UA4 should be a new old stock MOS 6551 or equivalent. The WDC 65C51 has a well-k
 
 The original SSC used a 1.8432MHz crystal (Y1) and a usually-omitted 10pF capacitor (C1) for timing the ACIA chip. You can use this same kind of crystal, or you can use a self-contained DIP8 or DIP14 oscillator (G1). If you use a horizontally-mounted crystal at Y1, make sure it is insulated from the unused pads underneath.
 
+Crystal option: ![rendering of a crytal and capacitor](images/Crystal.png)
+
 ### Cable Header
 
 You can use a common PC-type IDC10 to DB9M pigtail, or the IDC10 to DB25F pigtail used with the original Apple SSC. There are two different pinouts used in the PC style ("sequential" or "staggered"), and the "apple" pinout is different from both. Only populate the header (J1) for the style you're going to use. "sequential" is the most commonly available type. A keyed/shrouded header is probably best, a right angle/horizontal header would be nice, but you probably only have room for that if you are using the "apple" pinout.
 
-Sequential: ![DB9M Sequential](cables/DB9MSequential.jpg)
-Staggered: ![DB9M Staggered](cables/DB9MStaggered.jpg)
+Sequential: ![DB9M Sequential](images/DB9MSequential.jpg)
+Staggered: ![DB9M Staggered](images/DB9MStaggered.jpg)
 
 ### Driver/Receiver
 
@@ -39,7 +41,7 @@ The original SSC used a large DIP16 sized jumper block that could be oriented in
 
 ### Configuration jumpers
 
-![rendering of the solder jumpers on the rear of the board](SuperSerial_jumpers.png)
+![rendering of the solder jumpers on the rear of the board](images/Jumpers.png)
 
 The original SSC had two sets of 7-position dip switches, for a wide variety of default software settings, this card has no switches, just two sets of 6-position solder jumpers on the rear of the card. These are pre-configured to the use the reasonable modem defaults of:
 
