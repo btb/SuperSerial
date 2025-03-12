@@ -31,7 +31,7 @@ Staggered: ![DB9M Staggered](images/DB9MStaggered.jpg)
 
 ### Driver/Receiver
 
-The RS232 Driver/Receiver chips, UA6 and UA7, can be the original 1488 and 1489 or the CMOS equivalent 14C88 and 14C89. If UA6 is a 14C88, you can omit capacitors C3, C4, and C9.
+The RS232 Driver/Receiver chips, UA6 and UA7, can be the original MC1488 and MC1489 or equivalents like the 75188 and 75189, or the CMOS equivalents 14C88 and 14C89. If UA6 is a 14C88, you can omit capacitors C3, C4, and C9.
 
 ## Configuration
 
