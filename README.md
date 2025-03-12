@@ -50,3 +50,7 @@ The original SSC had two sets of 7-position dip switches, for a wide variety of 
 You can cut these traces and re-solder as needed. Note that all of these settings (except for SW2-6) are configurable from software as well. But if you commonly need to use the card for more than one purpose, it's probably best to just have more than one card!
 
 SW1-7 and SW2-7 are omitted since those do not control software defaults, but re-route some signals to non-standard pins. If that's necessary for you, you can use an adapter cable.
+
+## Mounting
+
+Want to make a OEM-style metal bracket to mount your connector to the rear of your Apple II or II+? See my design here: https://github.com/btb/Apple2IOClamps
