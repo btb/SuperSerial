@@ -6,7 +6,6 @@ A clone of the Apple Super Serial Card ][
 
 ![rendering of the front of the board](SuperSerial.png)
 
-
 ## Assembly
 
 ### ROM
@@ -25,9 +24,8 @@ The original SSC used a 1.8432MHz crystal (Y1) and a usually-omitted 10pF capaci
 
 You can use a common PC-type IDC10 to DB9M pigtail, or the IDC10 to DB25F pigtail used with the original Apple SSC. There are two different pinouts used in the PC style ("sequential" or "staggered"), and the "apple" pinout is different from both. Only populate the header (J1) for the style you're going to use. "sequential" is the most commonly available type. A keyed/shrouded header is probably best, a right angle/horizontal header would be nice, but you probably only have room for that if you are using the "apple" pinout.
 
-![DB9M Sequential](cables/DB9MSequential.jpg)
-![DB9M Staggered](cables/DB9MStaggered.jpg)
-Sequential, Left. Staggered, Right
+Sequential: ![DB9M Sequential](cables/DB9MSequential.jpg)
+Staggered: ![DB9M Staggered](cables/DB9MStaggered.jpg)
 
 ### Driver/Receiver
 
